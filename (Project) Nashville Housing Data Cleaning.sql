@@ -139,8 +139,7 @@ WHERE row_num > 1
 --- Lastly, we will delete unused columns
 
 ALTER TABLE NashvilleHousing
-DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress
+DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
-ALTER TABLE NashvilleHousing
-DROP COLUMN SaleDate
+
 
